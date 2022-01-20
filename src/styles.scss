@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Short Stack", cursive;
+}
+
+.float-right {
+  float: right;
+}
+
+.form-field {
+  padding: 0.3rem 0;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.mat-card {
+  height: 27rem;
+  width: 27rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.mat-card-actions {
+  position: absolute;
+  width: 90%;
+  bottom: 1.6rem;
+  left: 0;
+  right: 0;
+  margin: auto !important;
+
+  .mat-raised-button {
+    margin: 0 !important;
+  }
+}
